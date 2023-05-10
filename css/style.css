@@ -7,7 +7,7 @@
 
 header{
     background-color: #ADD8E6;
-    padding: 25px 0px;
+    padding-top: 25px;
 
 }
 
@@ -29,7 +29,6 @@ header{
 
 .flexcontainer :nth-child(2){
     width: calc(100% / 1.5);
-    text-align: center;
 }
 
 .col ul{
@@ -39,7 +38,6 @@ header{
 }
 
 .col ul li{
-    text-align: center;
     display: inline-block;
 }
 
@@ -53,7 +51,7 @@ header{
 .pink{
     width: 800px;
     height: 400px   ;
-    background-color: pink;
+    background-color: #EE82EE;
 
 }
 
@@ -104,8 +102,6 @@ background-color: #23272A;
 .col-4{
     height: 500px;
     border: 2px dashed black;
-
-
 }
 hr{
     margin: 10px auto;
@@ -131,5 +127,23 @@ footer .container{
 
 .whiteb{
     border: 2px white dashed;
+
+}
+
+.endfooter{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 1000px;
+    margin: 0 auto;
+    height: 75px;
+    background-color: #7FFFD4;
+
+}
+
+.endfooter span{
+    background-color: #FFB6C1;
+    padding: 5px;
+    border: 2px dashed black;
 
 }
