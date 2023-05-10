@@ -15,7 +15,7 @@ header{
     display: flex;
     justify-content: center;
     align-items: center;
-    width: 1200px;
+    width: 1000px;
     margin: 0px auto;
     background-color: #DAA520;
 }
@@ -29,26 +29,67 @@ header{
 
 .flexcontainer :nth-child(2){
     width: calc(100% / 1.5);
+    text-align: center;
 }
 
 .col ul{
  list-style: none;
-display: flex;
-justify-content: space-around;
+
 
 }
 
 .col ul li{
     text-align: center;
-
+    display: inline-block;
 }
 
 .footer-first{
+    margin-top: 50px;
+    padding: 25px 0px;
     width: 100%;
-
+    background-color: darkblue;
 }
 
 .pink{
     width: 800px;
+    height: 400px   ;
+    background-color: pink;
+
+}
+
+.container{
+    width: 1000px;
+    margin: 0 auto;
+    padding: 50px;
+
+}
+.row{
+    display: flex;
+
+}
+.row div{
+    border: 2px dashed black;
+}
+.big{
+    width: calc(100% / 1.5);
+    height: 400px;
+    background-color: #1E90FF;
+}
+
+
+.small{
+    width: calc(100% / 3);
+    background-color: pink;
+}
+
+.graybg{
+    background-color: #D3D3D3;
+
+}
+
+.greenbig{
+    width: 1000px;
+    height: 700px;
+    background-color: #228B22;
 
 }
