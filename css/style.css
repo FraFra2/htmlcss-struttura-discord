@@ -93,3 +93,43 @@ header{
     background-color: #228B22;
 
 }
+
+footer{
+padding: 10px;
+background-color: #23272A;
+
+}
+
+.col-2,
+.col-4{
+    height: 500px;
+    border: 2px dashed black;
+
+
+}
+hr{
+    margin: 10px auto;
+    border: 1px solid white;
+}
+
+.col-2{
+    width: calc(100% / 3);
+    background-color: #F08080;
+}
+
+.col-4{
+    width: calc(100% / 1.5);
+    background-color: #20B2AA;
+    display: flex;
+    
+
+}
+footer .container{
+    display: flex;
+
+}
+
+.whiteb{
+    border: 2px white dashed;
+
+}
